@@ -1,13 +1,13 @@
 var granimInstance = new Granim({
   element: '#content',
-  direction: 'left-right',
+  direction: 'diagonal',
   isPausedWhenNotInView: true,
   states : {
       "default-state": {
           gradients: [
-              ['#5188b8', '#7da6ca'],
+              ['#5188b8', '#355e89'],
               ['#FF9999', '#FF1F1F'],
-              ['#FFE8AD', '#FFCB47']
+              ['#FFBA0A', '#FFCB47']
           ]
       }
   }
