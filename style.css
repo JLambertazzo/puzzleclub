@@ -13,7 +13,7 @@ body {
   display: grid;
   place-items: center;
   background-color: #5188b8;
-  color: #EBEBEB;
+  color: #ebebeb;
   font-size: xx-large;
   width: 100vw;
   height: 100vh;
@@ -21,17 +21,17 @@ body {
   text-align: center;
 }
 
-body>div {
+body > div {
   z-index: 15;
 }
 
 h1 {
-  font-family: 'Tommy', sans-serif;
+  font-family: "Tommy", sans-serif;
   text-shadow: 4px 4px rgba(0, 0, 0, 0.7);
 }
 
 p {
-  font-family: 'DM Sans', sans-serif;
+  font-family: "DM Sans", sans-serif;
   text-shadow: 2px 2px rgba(0, 0, 0, 0.7);
 }
 
@@ -44,4 +44,22 @@ p {
   right: 0;
   bottom: 0;
   left: 0;
+}
+
+.navigation-bar {
+  width: 100%;
+  height: 80px;
+  background-color: #5188b8;
+}
+
+.navigation-bar ul li {
+  list-style: none;
+  display: inline-block;
+}
+
+.logo {
+  display: inline-block;
+  vertical-align: top;
+  width: 50px;
+  height: 50px;
 }
