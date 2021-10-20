@@ -35,6 +35,18 @@ p {
   text-shadow: 2px 2px rgba(0, 0, 0, 0.7);
 }
 
+a.but {
+  font-family: "DM Sans", sans-serif;
+  color: #5188b8;
+  background: white;
+  padding: 10px 15px;
+  border-radius: 15px;
+  text-shadow: none;
+  text-decoration: none;
+  box-shadow: 2px 2px black;
+  font-weight: bold;
+}
+
 #content {
   position: absolute;
   display: block;
